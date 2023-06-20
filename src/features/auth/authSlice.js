@@ -4,7 +4,7 @@ export const authSlice = createSlice({
     name: 'auth',
     initialState: {
         email: "",
-        code: ""
+        code: "" 
     },
     reducers: {
         addEmail: (state, { payload }) => {
